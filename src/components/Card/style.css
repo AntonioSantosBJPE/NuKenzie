@@ -1,0 +1,53 @@
+.Card {
+  width: 100%;
+  max-width: 560px;
+  height: 87px;
+  background: var(--color-grey-1);
+  border-radius: 4px;
+}
+.Card > span {
+  display: block;
+  width: 1%;
+  height: 100%;
+  border-radius: 4px 0 0 4px;
+}
+.card-box-left {
+  width: 60%;
+  margin-left: 2.5%;
+  padding: 1.5% 0;
+}
+.card-title-description {
+  width: 100%;
+  max-width: 320px;
+  height: 39px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-box-right {
+  width: 35%;
+  padding: 3.2% 2% 3.2% 0;
+}
+.card-box-right > button {
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 2.5px;
+  background-color: var(--color-grey-2);
+}
+.card-box-right > button:hover {
+  background-color: var(--color-grey-3);
+}
+.card-box-right > button:hover > span {
+  background-image: url("../trashWhite.svg");
+}
+.card-box-right > button > span {
+  width: 50%;
+  height: 50%;
+  background-image: url("../trashBlack.svg");
+  background-repeat: no-repeat;
+}

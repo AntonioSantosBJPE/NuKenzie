@@ -1,0 +1,36 @@
+.Home {
+  background-color: var(--color-grey-0);
+  display: block;
+  min-height: 100vh;
+}
+.Home-main {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 988px;
+  gap: 6.5%;
+}
+.Home-section-left {
+}
+
+.Home-section-right {
+  width: 57%;
+  max-width: 560px;
+}
+
+@media (max-width: 767px) {
+  .Home-main {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+
+  .Home-section-right {
+    width: 100%;
+  }
+
+  .Home-section-left {
+    width: 100%;
+    max-width: 363px;
+  }
+}
