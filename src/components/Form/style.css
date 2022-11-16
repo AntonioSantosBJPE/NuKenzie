@@ -1,0 +1,89 @@
+.Form {
+  width: 100%;
+  max-width: 363px;
+  height: fit-content;
+  background-color: var(--color-grey-0);
+  border: 1px solid var(--color-grey-2);
+  border-radius: 4px;
+}
+
+.Form > form {
+  padding: 38px 24.5px;
+}
+
+input,
+select {
+  background-color: var(--color-grey-1);
+  padding: 0 16px;
+  border: 2px solid var(--color-grey-1);
+  border-radius: 8px;
+  font-family: "Nunito", sans-serif;
+  color: var(--color-grey-3);
+}
+
+input {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.Form-input {
+  height: 52.8px;
+}
+
+.box-input-valueNumber {
+  width: 128px;
+  height: 79px;
+}
+.input-valueNumber {
+  width: 100px;
+  height: 48px;
+  border-right: 0;
+  border-radius: 8px 0 0 8px;
+}
+
+.box-input-valueNumber > div > input {
+  outline: none;
+  padding: 0 0 0 16px;
+}
+
+.box-input-valueNumber > div > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 48px;
+  border-radius: 0 8px 8px 0;
+  border: 2px solid var(--color-grey-1);
+  border-left: 0;
+  background-color: var(--color-grey-1);
+  color: var(--color-grey-3);
+}
+
+.box-input-select {
+  width: 150px;
+  height: 79px;
+}
+.box-input-select > select {
+  width: 100%;
+  height: 48px;
+}
+
+@media (max-width: 374px) {
+  .box-input-valueNumber {
+    width: 100%;
+  }
+  .input-valueNumber {
+    width: 90%;
+  }
+
+  .box-input-valueNumber > div > span {
+    width: 10%;
+  }
+  .box-input-select {
+    width: 100%;
+  }
+
+  .box-input {
+    flex-direction: column;
+  }
+}

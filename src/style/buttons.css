@@ -1,0 +1,55 @@
+.btn-larger-color-primary,
+.btn-middle-color-grey-2,
+.btn-middle-color-primary {
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 19px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-larger-color-primary {
+  height: 48px;
+  padding: 13px 20px;
+  border: 2px solid var(--color-primary-1);
+  background-color: var(--color-primary-1);
+  font-size: var(--font-headline);
+  color: var(--color-grey-0);
+}
+.btn-larger-color-primary:hover {
+  border: 2px solid var(--color-primary-2);
+  background-color: var(--color-primary-2);
+  color: var(--color-grey-1);
+}
+
+.btn-middle-color-grey-2 {
+  height: 40px;
+  padding: 15px;
+  border: 1.4px solid var(--color-grey-2);
+  background-color: var(--color-grey-2);
+  font-size: var(--font-btn-middle);
+  color: var(--color-grey-3);
+}
+.btn-middle-color-grey-2:hover {
+  border: 2px solid var(--color-primary-1);
+  background-color: var(--color-primary-1);
+  color: var(--color-grey-0);
+}
+
+.btn-middle-color-primary {
+  height: 40px;
+  padding: 15px;
+  border: 1.4px solid var(--color-primary-1);
+  background-color: var(--color-primary-1);
+  font-size: var(--font-btn-middle);
+  color: var(--color-grey-0);
+}
+.btn-middle-color-primary:hover {
+  border: 2px solid var(--color-primary-2);
+  background-color: var(--color-primary-2);
+  color: var(--color-grey-1);
+}

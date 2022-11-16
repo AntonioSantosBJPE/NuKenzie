@@ -1,0 +1,13 @@
+.NoCard {
+  width: 100%;
+  max-width: 560px;
+}
+.NoCard > h2 {
+  width: 100%;
+  height: 100%;
+}
+.NoCard > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
